@@ -1,0 +1,22 @@
+{
+  "name": "hyperscroll",
+  "description": "",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dominictarr/hyperscroll",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/hyperscroll.git"
+  },
+  "dependencies": {
+    "hyperscript": "^2.0.2"
+  },
+  "devDependencies": {
+    "hyperloadmore": "^1.0.0",
+    "pull-stream": "^3.6.1"
+  },
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "'Dominic Tarr' <dominic.tarr@gmail.com> (dominictarr.com)",
+  "license": "MIT"
+}
